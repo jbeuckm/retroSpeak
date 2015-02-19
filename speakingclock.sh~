@@ -1,2 +1,0 @@
-#!/bin/sh
-while true; do python speakTime.py; sleep 60; done
