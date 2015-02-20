@@ -1,6 +1,8 @@
 # retroSpeak
 A SP0256 speech synthesiser add-on board for Raspberry Pi A+ or B+ or v2
 
+![Photo of retroSpeak PCB mounted on Raspberry Pi](images/retrospeak.jpg)
+
 This is a very old-school style speech synthesiser add-on board for the Raspberry Pi. It 
 uses the vintage General Instruments SP0256-AL2 IC that was popular in the 1980s. 
 It was used in many DIY and commercial speech synthesisers that were interfaced to 
@@ -26,6 +28,8 @@ oscillator. As it only uses the SPI port, the GPIO pins are available for other 
 real HAT as no identifying EEPROM is provided for. It could work with older Raspberries if you use a 26 way 
 header and/or a ribbon cable adapter.
 
+![Closer photo of retroSpeak PCB](images/pcb-on-b2.jpg)
+
 Audio output is independent of the Raspberry Pi, and uses an old-school LM386 amplifier outputting
 through a speaker attached to a header on the PCB or through a 3.5mm stereo jack socket. It's 
 very low-fi and a bit hissy/noisy.
@@ -34,6 +38,8 @@ The PCB uses all through-hole components apart from the LTC6903 oscillator. Howe
 the flexibility of varying the pitch/speed of the speech from a very slow/T-Rex style roar to manic
 electronic chipmunk... The pitch can be changed while the SP0256 is speaking, or beforehand to simply
 change the voice.
+
+![David and Goliath](images/ltc6903vsSP0256.jpg)
 
 The most recent version of the PCB will allow up to 4 PCBs to be stacked for multiple voices. But this 
 feature hasn't yet been tested.
